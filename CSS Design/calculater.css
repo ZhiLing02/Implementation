@@ -1,0 +1,39 @@
+#original {
+    float: right;
+    margin-top: 20%;
+    margin-bottom: 0px;
+}
+
+#calc{
+    height: 90px;
+    right: 0px;
+}
+
+.calc-t {
+    text-align: center;
+    color: coral;
+    font-weight: bold;
+    background-color: white;
+}
+
+#spin {
+    cursor: pointer;
+    transform-style: preserve-2d;
+}
+  
+#spin:hover {
+      animation: spin 5s linear infinite;
+}
+  
+@keyframes spin {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+}
+  
+.box-1 {
+    transform: rotate(20deg);
+}

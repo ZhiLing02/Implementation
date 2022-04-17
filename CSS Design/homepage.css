@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap');
+.banner {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color:salmon;
+    border-bottom-color: salmon;
+}
+
+/*CSS Styles of 'Reasons to shop with us' Division*/
+.Intro {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+}
+
+.intro  {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.intro ul h3 {
+    font-variant: small-caps;
+    color: #000080;
+    padding-bottom: 0%;
+    display: -ms-inline-grid;
+    justify-content: center;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.intro ul p {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.intro ul h4 {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+    color: #cc0000;
+}
+
+/*CSS Styles for 'What's new in store' division*/
+#boxes {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#leftopening {
+    box-shadow: 5px 10px 8px #888888;
+    width: 255px;
+    height: 470px;
+    background-color:#ffcccc;
+}
+
+#leftopening img{
+ padding: 10px;
+}
+
+#leftopening p {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-style: italic;
+    color: 	  #00004d;
+}
+
+#leftopening h4 {
+    font-weight: bold;
+    padding: 8px;
+    color: #800040;
+}
+
+#leftopening h6 {
+    font-style: italic;
+    padding: 8px;
+    color: black;
+}
+
+#leftopening .click {
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 24%;
+    background-color:#ffe6e6;
+    color:black;
+    font-family: sans-serif, Helvetica;
+    cursor: pointer;
+}
+
+.WIS {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12%;
+    color: coral;
+    background-color:white;
+    display: inline-block;
+    padding: 5px;
+}
+
+#opening {
+    box-shadow: 5px 10px 8px #888888;
+    width: 255px;
+    height: 470px;
+    background-color:#ffcccc;
+}
+
+#opening img{
+    padding: 10px;
+}
+
+#opening p {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-style: italic;
+    color: 	  #00004d;
+}
+
+#opening h4 {
+    font-weight: bold;
+    padding: 8px;
+    color: #800040;
+}
+
+#opening h6 {
+    font-style: italic;
+    padding: 8px;
+    color: black;
+    margin-bottom: 17%;
+}
+
+#opening .click {
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 24%;
+    background-color:#ffe6e6;
+    color:black;
+    font-family: sans-serif, Helvetica;
+    cursor: pointer;
+}
+
+#rightopening {
+    box-shadow: 5px 10px 8px #888888;
+    width: 255px;
+    height: 470px;
+    background-color:#ffcccc;
+}
+
+#rightopening img{
+    padding: 10px;
+}
+
+#rightopening p {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-style: italic;
+    color: 	  #00004d;
+    margin-bottom: 44%;
+}
+
+#rightopening h4 {
+    font-weight: bold;
+    padding: 8px;
+    color: #800040;
+}
+
+#rightopening .click {
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 24%;
+    background-color:#ffe6e6;
+    color:black;
+    font-family: sans-serif, Helvetica;
+    cursor: pointer;
+}
+
+/* Sales banner styles*/
+.Salesbanner {
+    width: 275px;
+    padding: 20px;
+    padding-top: 5px;
+    background-color: #ffcccc;
+    margin-left: 30%;
+}
+
+.highlight {
+    font-family: 'DM Serif Text', serif;
+}
+
+/*When the mouse hovers over the sub-heading in home page it will enlarge with respective scale*/
+#enlarge :hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 481px) {
+    #boxes {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+
+}
+
+@media only screen and (max-width:480px) {
+    #boxes {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-items: auto;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .banner {
+        width: auto;
+        height: auto;
+    }
+
+}

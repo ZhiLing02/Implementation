@@ -1,0 +1,87 @@
+.products {
+    text-align: center;
+    font-size: 28px;
+    color: 	 black;
+    font-weight: bold;
+}
+
+/*Table Styles, Uses flex as display method in the table*/
+table tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-collapse: collapse;
+    border:  1px solid wheat;
+    background-color: white;
+}
+
+table thead td{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    border: 1px solid wheat;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+table tbody td {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-collapse: collapse;
+    border: 1px solid wheat;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #ffcccc;
+}
+
+.container img{
+    width: 20%;
+    background: white;
+    border-style:solid;
+    border-color:lightpink;
+}
+
+.ProductImage:after {
+    float: left;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.ProductDetails {
+    padding: 30px;
+    min-height: 100px;
+    box-sizing: border-box;
+}
+
+
+.container ul li {
+    list-style-type: square;
+}
+
+.pagehead {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: white;
+    color:rgb(223, 128, 96);
+}
+
+.seemore {
+    float: right;
+}
+
+/*When the mouse hovers over the sub-heading in all product page it will enlarge with respective scale*/
+#enlarge :hover {
+    transform: scale(1.1);
+}

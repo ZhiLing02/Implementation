@@ -1,0 +1,38 @@
+html, body{
+   
+    height: auto;
+    text-align: center;
+   
+}
+
+
+
+fieldset{
+    background-color: rgb(245, 169, 169);
+    padding:30px;
+    line-height:2.5;
+    width:30% ;
+    text-align: center;
+    display: inline-block;
+    border-radius:10px ;
+
+}
+
+fieldset, legend{
+    font-size: 20px;
+}
+
+.birth{
+    padding-right:5%;
+}
+
+.ques{
+    font-size: 15px;
+}
+
+.back{
+    font-size: 20px;
+}
+
+
+

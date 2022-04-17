@@ -1,0 +1,45 @@
+html, body{
+    height: auto;
+    text-align: center;
+   
+}
+
+
+fieldset{
+    background-color: rgb(230,243,255);
+    font-size: 15px;
+    padding:40px;
+    line-height: 2;
+    width: 20% ;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+fieldset, legend{
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.b{
+    font-size: 20px;
+    text-align: center;
+}
+
+.pass{
+    text-align: center;
+    font-size:15px ;
+    color:navy ;
+    
+}
+    
+.show{
+    text-align: center;
+    font-size: 15px;
+    
+    
+}
+

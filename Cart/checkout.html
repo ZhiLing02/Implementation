@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./checkout.css" type="text/css">
+<link rel="stylesheet" href="../CSS Design/templete.css" type="text/css">
+
+<title>Payment Page</title>
+</head>
+<body>
+
+  <!--Header for Web Page-->
+  <div class="header-top">
+    <nav>
+      <h1><img src="../est 2022.png"><a href="../index.html">Everything Grocery</a><h1>
+      <h4>
+        <ul class="options">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../AboutUs.html">About Us</a></li>
+        <div class="dropdown main">
+          <li><a href="../Product/AllProducts.html">Product</a></li>
+              <div class="dropdownlist">
+                  <a href="../Product/FreshProduct.html">Fresh Product</a>
+                  <a href="../Product/FrozenFood.html">Frozen Food</a>
+                  <a href="../Product/Groceries.html">Groceries</a>
+                  <a href="../Product/HouseholdProduct.html">Household Items</a>
+                  <a href="../Product/PersonalCareProduct.html">Personal Care Products</a>
+                  <a href="../Product/Kitchenware.html">Kitchenware</a>
+              </div>
+          </div>
+          <li><a href="../Membership/membership.html">Membership</a></li>
+          <li><a href="../Cart/cart.html">Cart</a></li>
+          <li><a href="../FAQ/faq.html">FAQ</a></li>
+          <li><a href="../Contact Us/ContactUS.html">Contact Us</a></li>
+       </ul>
+      </h4>
+    </nav>
+  </div>
+
+    <br/>
+
+<div class="checkout">
+    <form name="information" method="get" action="done.html">
+        <div class="row">
+            <div class="col">
+                <h3>Billing Address</h3>
+                <div class="input">
+                    <list>Full Name:</list>
+                    <input type="text" placeholder="surname + given name" required>
+                </div>
+
+                
+                <div class="input">
+                    <list>Email:</list>
+                    <input type="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div class="input">
+                    <list>Phone Number:</list>
+                    <input type="tel" placeholder="012-3456789" pattern="[0-9]{3}-[0-9]{7}" required>
+                </div>
+                
+                <div class="input">
+                    <list>Address:</list>
+                    <input type="text" placeholder="Unit No, Block, Residence" required>
+                    <input type="text" placeholder="Street No, City, Postcode" required>
+                </div>
+            
+                <div class="input">
+                    <list>
+                        <label for="states">States:</label>
+                        <br>
+                        <select name="states" id="states">
+                            <option value="none" selected disabled hidden>Select your states</option>
+                            <option value="Johor">Johor</option>
+                            <option value="Kedah">Kedah</option>
+                            <option value="Kelantan">Kelantan</option>
+                            <option value="Melaka">Melaka</option>
+                            <option value="NegeriSembilan">Negeri Sembilan</option>
+                            <option value="Pahang">Pahang</option>
+                            <option value="Penang">Penang</option>
+                            <option value="Perak">Perak</option>
+                            <option value="Perlis">Perlis</option>
+                            <option value="Sabah">Sabah</option>
+                            <option value="Sarawak">Sarawak</option>
+                            <option value="Selangor">Selangor</option>
+                            <option value="Terengganu">Terengganu</option>
+
+                          </select>
+                    </list>
+                </div>
+
+                <div class="input">
+                    <list>Postcode</list>
+                <input type="number" placeholder="68100" pattern="[0-9]{5}" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="col">
+                <h3>Payment Method</h3>
+                <div class="input">
+                    <list>We Accept:</list>
+                    <img src="payment.png" alt="cards">
+                 </div>
+            <div class="input">
+                <list> Cardholder Name:</list>
+                <input type="text" placeholder="surname + given name" required>
+            </div>
+            <div class="input">
+                <list>Card Number:</list>
+                <input type="text" placeholder="1234-5678-9012" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" required>
+            </div>
+            <div class="input">
+                <list>CVV:</list>
+                <input type="number" placeholder="123" pattern="[0-9]{3}" required>
+            </div>
+            
+                 <div class="input">
+                    <list>Expiry Month:</list>
+                    <input type="text" placeholder="March" required>
+                </div>
+                <div class="input">
+                <list>Expiry Year</list>
+                <input type="number" placeholder="2022" pattern="[0-9]{4}" required>
+                </div>
+            
+            </div>
+        </div>
+        <br/><br/>
+       <input class="submit" id="submit" type="submit" value="PROCEED TO CHECKOUT">
+    </form>
+</div>
+
+
+<!--Footer for Web Page-->
+<div class="footer-bottom">
+    <footer>
+        <div class="icon">
+            <a href="https://www.instagram.com"><img src="../ig-icon.png"></a>
+            <a href="https://www.facebook.com"><img src="../fb-icon.png"></a>
+            <a href="https://www.whatsapp.com"><img src="../wa-icon.png"></a>
+        </div>
+        <ul class="page-clicks">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../AboutUs.html">About Us</a></li>
+            <li><a href="../Product/AllProducts.html">Product</a></li>
+            <li><a href="../Membership/membership.html">Membership</a></li>
+            <li><a href="./cart.html">Cart</a></li>
+            <li><a href="../FAQ/faq.html">FAQ</a></li>
+            <li><a href="../Contact Us/ContactUS.html">Contact Us</a></li>
+
+        </ul>
+        <p>All Rights Reserved © 2022 Everything Grocery</p>
+    </footer>
+</div>
+
+
+</body>
+</html>

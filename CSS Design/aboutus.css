@@ -1,0 +1,178 @@
+.Head-About {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+    
+}
+
+.AboutUsDivision {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+
+.AboutUsDivision li {
+    font-size: 18px;
+    border: 2px #e66969 solid;
+    padding: 5px;
+    font-weight: bold;
+    padding-inline: 10px;
+}
+
+.AboutUsDivision li a:hover {
+    color:lightsalmon;
+    background-color: blanchedalmond;
+}
+
+.AboutUsDivision li a:active {
+    color:coral;
+    background-color: blanchedalmond;
+}
+
+.section1 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 5%;
+    color:brown;
+}
+
+.Head-About img {
+    padding-left: 10px;
+    float: left;
+    padding-right: 13px;
+}
+
+#awardstext {
+    margin-left: 8%;
+    font-weight: bold;
+    color:firebrick;
+    font-size: 20px;
+}
+
+.awardsReceived img  {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px ;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#mission {
+    font-family: 'Playfair Display', serif;;
+    color: #e66969;
+}
+
+#section2 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .Head-About {
+        background-color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 5px;
+        
+    }
+    
+    .AboutUsDivision {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        
+    }
+    
+    .AboutUsDivision li {
+        font-size: 18px;
+        border: 2px #e66969 solid;
+        padding: 5px;
+        font-weight: bold;
+        padding-inline: 10px;
+    }
+
+    .AboutUsDivision img {
+        min-width: auto;
+    }
+
+    .Head-About img {
+        padding-left: 10px;
+        float: left;
+        padding-right: 13px;
+    }
+
+    #awardstext {
+        margin-left: 8%;
+        font-weight: bold;
+        color:firebrick;
+        font-size: 20px;
+    }
+    
+    .awardsReceived img  {
+        display: flex;
+        flex-direction: row;
+        padding-left: 50px;
+        padding-right: 50px ;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        position: relative;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .Head-About {
+        background-color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 5px;
+        
+    }
+    
+    .AboutUsDivision {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        
+    }
+    
+    .AboutUsDivision li {
+        font-size: 18px;
+        border: 2px #e66969 solid;
+        padding: 5px;
+        font-weight: bold;
+        padding-inline: 10px;
+    }
+}
+
+/* ===============================
+	Mobile Devices: 0 to 480px 
+   ===============================
+*/
+@media only screen and (max-width:480px) {
+    .awardsReceived img  {
+        display: flex;
+        flex-direction: row;
+        padding-left: 50px;
+        padding-right: 50px ;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        position: relative;
+    }
+}
+
+
+
+
+
+
+
+
+

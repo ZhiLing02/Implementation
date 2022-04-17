@@ -1,0 +1,94 @@
+Frequently asked questions
+
+==================================================================
+
+My Order
+1. How do I check my order status？
+    1. Select 'My Order'
+    2. Select your current order
+Your shopping and delivery progress will be update and uploaded there.
+
+2. How do I change address?
+    1. Select 'My Order' 
+    2. Select your current order
+    3. Select 'Edit order'
+    4. Select 'Confirm Cancellation'
+    5. Reorder all the items
+    6. Modify the 'Delivery address' before checking out.
+
+3. How do I cancel my order?
+    1. Select 'My Order' 
+    2. Select your current order
+    3. Select 'Cancel'
+    4. State your reasons
+    5. Select 'Confirm Cancellation'
+
+4. Why is my order delayed?
+    Order may be delayed due to traffics, weather or operational issues. If such happens, EverydayGrocery will notify you in short.
+
+=============================================================
+Shopping and Delivery
+
+
+1. How do I track my driver position?
+    1. Select 'My Order' 
+    2. Select current delivery order
+    3. Tap 'Tracking' to see live tracking of the driver
+The location provided are based on real time position.
+
+2. How fast do you deliver?
+    Delivery time will be based on the time and date you scheduled on your order. Fatest will be deliver in the next 1 to 2 hours.
+
+3. What are the delivery hours?
+    Delivery hours: 11am to 8pm (Everyday including Public Holidays)
+
+
+================================================================
+Pricing, Payment and Refunds
+
+1. Are the price different from the physical store?
+    EverydayGrocery makes every effort to match in-store prices whenever possible. However, certain product may charges differ from in-store prices.
+
+    Please contact us at ##if you spot an item that you believe is priced wrongly, and we will work with you to find a fair solution! With pricing difficulties, we retain the right to cancel items and/or orders.
+
+2. Why can't I complete payment?
+    If a payment fails, you should receive an error notice on our checkout page that explains why. The following are some of the most prevalent reasons for payment failure:
+
+    1.  Insufficient funds
+        Once your card has been topped up, you can attempt checking out again.
+
+    2. Bank declined transaction
+        This can only be resolve by contacting your card's issuing bank.
+
+    3. 3D authentication failure
+        Fail to enter the valid One Time Pin (OTP) to confirm payment. You may try checking out once more. If you are unable to get your OTP, please contact your respective bank.
+
+    If you have any other payment concerns, please contact us at ## with image of problem faced, and we will respond as soon as possible.
+
+3. How do I add a card?
+    1. Select 'card' as your payment method during checkout.
+    2. Select 'Add Card'
+    3. Fill in your card details, click 'Submit'
+    4. You will receive a One Time Password (OTP) on your mobile phone. Click "Submit" after entering the OTP.
+
+4. How will I be refunded if there is an out of stock item?
+    Any item that is out of stock will not charged to you. If your final bill is less than your checkout amount as a result of this, we will provide a refund as soon as your delivery is complete.
+
+    Depending on your payment method, you can expect the following to be credited to your account:
+
+        Credit Cards / Debit Cards: up to 2 billing statement cycles
+        E-wallet: Up to 2 weeks
+    Refund periods depends on the issuing bank of your credit card. Please contact your respective banks to get more precise estimates, or check your transaction statement as amount might already been refunded.
+
+================================================================
+Others
+1. How do I reset my password?
+    1. Access our login page.
+
+    2. Select 'I've forgotten my password'.
+
+    3. Go to your mailbox and follow the 'Change Password' email instructions.
+
+=======================================================================
+Still need help? Chat with a representative 
+#mysupport@everydaygrocery.com

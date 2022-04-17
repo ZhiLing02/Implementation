@@ -1,0 +1,91 @@
+.Receipe {
+    text-align: center;
+    font-size: 28px;
+    color: 	 black;
+    font-weight: bold;
+}
+
+.Receipe-delight{
+    text-decoration: underline;
+}
+
+h3.Receipe-heading{
+    font-weight: bold;
+    color: maroon;
+}
+
+/*Uses flex as display method in the table*/
+table tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-collapse: collapse;
+    border:  1px solid wheat;
+    background-color: white;
+}
+
+table thead td{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    border: 1px solid wheat;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+table tbody td {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-collapse: collapse;
+    border: 1px solid wheat;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Button colour design*/
+button {
+    background-color: #ffcccc;
+}
+
+/*Style of image in the container in Recipes Details Page*/
+.container img{
+    width: 20%;
+    background: white;
+    border-style:solid;
+    border-color:lightpink;
+}
+
+.ProductImage:after {
+    float: left;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.ProductDetails {
+    padding: 30px;
+    min-height: 100px;
+    box-sizing: border-box;
+}
+
+/*The design of description list in product details page*/
+.container ul li {
+    list-style-type: square;
+}
+
+.pagehead {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: white;
+    color:rgb(223, 128, 96);
+}
+
+

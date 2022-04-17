@@ -1,0 +1,44 @@
+body{
+      background-image: url(thankyou.jpg);
+      background-repeat:no-repeat;
+      background-attachment: fixed;  
+      background-size: 100% 100%;
+}
+h2{
+      text-align:center;
+}
+.id{
+    color:red;
+}
+.ok{
+      height:70px;
+      width:70px;
+     margin-left:47%;
+}
+h3{
+      text-align:center;
+}
+p{
+      font-family:verdana;
+      text-align:justify;
+      padding-left:23%;
+      padding-right:23%;
+}
+table{
+    width: 80%;
+    padding-left:23%;
+    
+}
+.member{
+    height:20%;
+    width:35%;
+    cursor: pointer;
+    background-color: rgb(255, 71, 98);
+    color: white;
+    border-radius: 5px;
+}
+form{
+      font-family:verdana;
+      padding-left:23%;
+}
+  

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add to Cart Page</title>
+    <link href="../CSS Design/templete.css" rel="stylesheet" type="text/css" />
+    <link href="./cart.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body onload="priceCalculation()">
+
+    <!--Header for Web Page-->
+    <div class="header-top">
+        <nav>
+            <h1><img src="../est 2022.png"><a href="../index.html">Everything Grocery</a><h1>
+          <h4>
+            <ul class="options">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../AboutUs.html">About Us</a></li>
+            <div class="dropdown main">
+              <li><a href="../Product/AllProducts.html">Product</a></li>
+                  <div class="dropdownlist">
+                      <a href="../Product/FreshProduct.html">Fresh Product</a>
+                      <a href="../Product/FrozenFood.html">Frozen Food</a>
+                      <a href="../Product/Groceries.html">Groceries</a>
+                      <a href="../Product/HouseholdProduct.html">Household Items</a>
+                      <a href="../Product/PersonalCareProduct.html">Personal Care Products</a>
+                      <a href="../Product/Kitchenware.html">Kitchenware</a>
+                  </div>
+              </div>
+              <li><a href="../Membership/membership.html">Membership</a></li>
+              <li><a href="../Cart/cart.html">Cart</a></li>
+              <li><a href="../FAQ/faq.html">FAQ</a></li>
+              <li><a href="../Contact Us/ContactUS.html">Contact Us</a></li>
+           </ul>
+          </h4>
+        </nav>
+      </div>
+
+    <h2>
+        <img src="cart.png"> FREE DELIVERY WITH MINIMUM SPEND RM150!!<img src="cart.png">
+    </h2>
+
+    <table id="myTable">
+        <thead>
+            <tr>
+                <td>PRODUCT</td>
+                <td>UNIT PRICE (RM)</td>
+                <td>QUANTITY</td>
+                <td>TOTAL PRICE (RM)</td>   
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <div class="item" >
+                        <img src="../Image/Product/Fresh/Baby Sweet Potato Leaf 250g.jpg " alt="Baby Sweet Potato Leaf 250g">
+                        <div>
+                            <p>
+                                <h3>FRESH</h3>
+                                <h5>Baby Sweet Potato Leaf 250g</h5>
+                            </p>
+                        </div>
+                    </div>
+            
+                </td>
+
+                <td>RM 2.50</td>
+
+                <td>
+                        <input type="number" id="quantity1" name="quantity1" min=0  value="0" >
+                </td>
+
+                <td>
+                        <input type="text" id="price1" name="price1"  value="" readonly />
+                        
+                </td>
+
+                <td><button class="remove" onclick="deleteRow(this)">Remove</button></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="item" >
+                    <img src="../Image/Product/Fresh/Cameron Baby Sipanch 100g.jpg " alt="Cameron Baby Spinach 100g">
+                        <div>
+                            <p>
+                                <h3>FRESH</h3>
+                                <h5>Cameron Baby Spinach 100g</h5>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>RM 7.90</td>
+
+                <td>
+                        <input type="number" id="quantity2" name="quantity2" min=0  value="0" >
+                </td>
+
+                <td>
+                        <input type="text" id="price2" name="price2"  value="" readonly />
+                </td>
+
+                <td><button class="remove" onclick="deleteRow(this)">Remove</button></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="item">
+                    <img src="../Image/Product/Frozen/Ramly Beef Burger 420g.jpg" alt="Frozen Ramly Beef Burger 420g">
+                        <div>
+                            <p>
+                                <h3>FROZEN</h3>
+                                <h5>Ramly Beef Burger 420g</h5>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>RM 7.60</td>
+
+                <td>
+                        <input type="number" id="quantity3" name="quantity3" min=0  value="0">
+                </td>
+
+                <td>
+                        <input type="text" id="price3" name="price3"  value=""  readonly/>
+                </td>
+
+                <td><button class="remove" onclick="deleteRow(this)">Remove</button></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="item">
+                    <img src="../Image/Product/Frozen/Figo Cheese Seafood Tofu 500g.jpg" alt="Figo Cheese Seafood Tofu 500g">
+                        <div>
+                            <p>
+                                <h3>FROZEN</h3>
+                                <h5>Figo Cheese Seafood Tofu 500g</h5>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>RM 11.80</td>
+
+                <td>
+                        <input type="number" id="quantity4" name="quantity4" min=0  value="0" >
+                </td>
+
+                <td>
+                        <input type="text" id="price4" name="price4"  value="" readonly />
+                </td>
+
+                <td><button class="remove" onclick="deleteRow(this)">Remove</button></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="item">
+                    <img src="../Image/Product/Groceries/San Remo Spaghetti 500g.jpg" alt="San Remo Spaghetti 500g">
+                        <div>
+                            <p>
+                                <h3>GROCERY</h3>
+                                <h5>San Remo Spaghetti 500g</h5>
+                            </p>
+                         </div>
+                    </div>
+                </td>
+
+                <td>RM 4.99</td>
+
+                <td>
+                        <input type="number" id="quantity5" name="quantity5" min=0  value="0" >
+                </td>
+
+                <td>
+                        <input type="text" id="price5" name="price5"  value=""  readonly/>
+                </td>
+
+                <td><button class="remove" onclick="deleteRow(this)">Remove</button></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="item">
+                    <img src="../Image/Product/Groceries/Sunwhite AAA  Rice 5kg.jpg" alt="Sunwhite AAA  Rice 5kg">
+                        <div>
+                            <p>
+                                <h3>GROCERY</h3>
+                                <h5>Sunwhite AAA  Rice 5kg</h5>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>RM 28.90</td>
+
+                <td>
+                        <input type="number" id="quantity6" name="quantity6" min=0  value="0" >
+                </td>
+
+                <td>
+                        <input type="text" id="price6" name="price6"  value="" readonly />
+                </td>
+
+                <td><button class="remove" onclick="deleteRow(this)">Remove</button></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="item">
+                        <img src="../Image/Product/Household/Dynamo Liquid Detergent 3L.jpg" alt="Dynamo Liquid Detergent 3L">
+                        <div>
+                            <p>
+                                <h3>GROCERY</h3>
+                                <h5>Dynamo Liquid Detergent 3L</h5>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>RM 29.90</td>
+
+                <td>
+                        <input type="number" id="quantity7" name="quantity7" min=0  value="0" >
+                </td>
+
+                <td>
+                        <input type="text" id="price7" name="price7"  value="" readonly />
+                </td>
+
+                <td><button class="remove" onclick="deleteRow(this)">Remove</button></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="item">
+                        <img src="../Image/Product/Personal Care/Dettol Antiseptic Germicide Liquid 1L.jpg" alt="Dettol Antiseptic Germicide Liquid 1L">
+                        <div>
+                            <p>
+                                <h3>PERSONAL CARE</h3>
+                                <h5>Dettol Antiseptic Germicide Liquid 1L</h5>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>RM 42.99</td>
+
+                <td>
+                        <input type="number" id="quantity8" name="quantity8" min=0  value="0" >
+                </td>
+
+                <td>
+                        <input type="text" id="price8" name="price8"  value="" readonly/>
+                </td>
+
+                <td><button class="remove" onclick="deleteRow(this)">Remove</button></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="item">
+                        <img src="../Image/Product/Personal Care/Listerine Total Care 250ml.jpg" alt="Listerine Total Care 250ml">
+                        <div>
+                            <p>
+                                <h3>PERSONAL CARE</h3>
+                                <h5>Listerine Total Care 250ml</h5>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+
+                <td>RM 14.20</td>
+
+                <td>
+                        <input type="number" id="quantity9" name="quantity9" min=0  value="0" >
+                </td>
+
+                <td>
+                        <input type="text" id="price9" name="price9"  value=""  readonly/>
+                </td>
+
+                <td><button class="remove" onclick="deleteRow(this)">Remove</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <br/>
+
+    <table>
+        <tr>
+            <div class="coupon">
+                <td><h4>VOUCHER</h4></td>
+                <td>Subtotal(RM): </td>
+                <td>
+                    <form name="subtotal" method="get">
+                        <input type="number" id="total" name="total" value="" readonly>
+                    </form>
+                </td>
+            </div>
+        </tr>
+        
+        <tr>
+            <td><label for="voucher" ><p>ENTER YOUR VOUCHER CODE HERE.</p></label></td>
+            <td>6% Tax:</td>
+            <td>
+                <form name="tax" method="get">
+                    <input type="number" id="tax" name="tax" value="" readonly>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+            Shipping Fee:
+            </td>
+            <td><form name="shipping" method="get">
+                <input type="number" id="shipping" name="shipping" value="" readonly>
+            </form></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" id="id1" placeholder="Voucher Code">
+                <button onclick="myFunction()">Apply</button>
+                <p id="demo">Please enter a valid code.</p></td>
+                <td>Grand Total:</td>
+                <td>
+                    <form name="grandtotal" method="get">
+                        <input type="number" id="grandtotal" name="grandtotal" value="">
+                    </form>
+                </td>
+        </tr>
+
+    </table>
+
+    <br/><br/>
+
+    <div class="tprice">
+        <a href="checkout.html"><button>PROCEED TO CHECK OUT</button></a>
+    </div>
+
+    <br/>
+
+    <!--Footer for Web Page-->
+    <div class="footer-bottom">
+        <footer>
+            <div class="icon">
+                <a href="https://www.instagram.com"><img src="../ig-icon.png"></a>
+                <a href="https://www.facebook.com"><img src="../fb-icon.png"></a>
+                <a href="https://www.whatsapp.com"><img src="../wa-icon.png"></a>
+            </div>
+            <ul class="page-clicks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../AboutUs.html">About Us</a></li>
+                <li><a href="../Product/AllProducts.html">Product</a></li>
+                <li><a href="../Membership/membership.html">Membership</a></li>
+                <li><a href="./cart.html">Cart</a></li>
+                <li><a href="../FAQ/faq.html">FAQ</a></li>
+                <li><a href="../Contact Us/ContactUS.html">Contact Us</a></li>
+    
+            </ul>
+            <p>All Rights Reserved © 2022 Everything Grocery</p>
+        </footer>
+    </div>
+    
+    
+</body>
+<script src="./cartremove.js" type="text/javascript"></script>
+<script src="./cartCalculation.js" type="text/javascript"></script>
+
+</html>

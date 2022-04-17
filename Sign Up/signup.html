@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="../CSS Design/templete.css" rel="stylesheet" type="text/css" />
+   <link href="./signup.css" rel="stylesheet" type="text/css">
+   <script src="signup.js" type="text/javascript"></script>
+   <title>Sign Up</title>
+
+</head>
+
+<body>
+
+    <!--Header for Web Page-->
+    <div class="header-top">
+      <nav>
+        <h1><img src="../est 2022.png"><a href="../index.html">Everything Grocery</a><h1>
+        <h4>
+          <ul class="options">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../AboutUs.html">About Us</a></li>
+          <div class="dropdown main">
+            <li><a href="../Product/AllProducts.html">Product</a></li>
+                <div class="dropdownlist">
+                    <a href="../Product/FreshProduct.html">Fresh Product</a>
+                    <a href="../Product/FrozenFood.html">Frozen Food</a>
+                    <a href="../Product/Groceries.html">Groceries</a>
+                    <a href="../Product/HouseholdProduct.html">Household Items</a>
+                    <a href="../Product/PersonalCareProduct.html">Personal Care Products</a>
+                    <a href="../Product/Kitchenware.html">Kitchenware</a>
+                </div>
+            </div>
+            <li><a href="../Membership/membership.html">Membership</a></li>
+            <li><a href="../Cart/cart.html">Cart</a></li>
+            <li><a href="../FAQ/faq.html">FAQ</a></li>
+            <li><a href="../Contact Us/ContactUS.html">Contact Us</a></li>
+         </ul>
+        </h4>
+      </nav>
+    </div>
+
+<article>
+
+    <h1>SIGN UP </h1>
+    <p>Please fill in the form below</p>
+    
+    <!--Allow users to input their details in the field-->
+    <form action="../index.html" method="get">
+        <fieldset>
+            <legend>Personal Info:</legend>
+       
+             <div>
+                <label for="nameBox"> <img src="user_icon.png"></label>
+                <input 
+                type="text"
+                id="nameBox"
+                name="memberName"
+                placeholder="User Name"
+                required>
+            </div>
+       
+            <div>
+                <label for="passBox">  <img src="lock_icon.png"></label>
+                <input 
+                type="text"
+                id="passBox"
+                name="memberPass"
+                placeholder="Password"
+                required
+                pattern="^\d{6}$"
+                required
+                >
+       
+            </div>
+       
+            <div>
+                <label for="phoneBox"><img src="phone_icon.png"></label>
+                <input 
+                type="text"
+                id="phoneBox" 
+                name="custPhone"
+                placeholder="012-34-678"
+                required
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+                >
+            </div>
+       
+            <div>
+                <label for="mailBox">  <img src="mailicon.png"></label>
+                <input 
+                type="text"
+                id="mailBox"
+                name="memberMail"
+                placeholder="abc@gmail.com"
+                >    
+            </div>
+       
+            <div class="birth">
+                <label for="birthBox"><img src="date_icon.png"></label>
+                <input type="date" id="dateBox" name="dateBox">
+            </div>
+           
+            <div class="ques">
+                <div>
+                    <input type="checkbox" checked="checked" name="remember" > Remember me
+                </div>
+       
+                <div>
+                    <input type="checkbox" checked="checked" name="remember" > Do you want to receive email from us ?
+                </div>      
+       
+                <div class="submit">         
+                    <input type="Submit" value="Sign Up" onclick="signup()" />
+                    &nbsp;&nbsp;
+                   <input type="button" value="Cancel" onclick="cancel()"/>
+                    &nbsp;&nbsp;
+                    <script> src="signup.js"</script>
+
+                </div>
+            </div>
+           </fieldset>
+    </form>
+
+</article>
+
+<div class="back">
+    <p>Already Have an account?<a href="../Log In/login_page.html" > Login &raquo; </a> </p>
+</div>
+
+<div class="back">
+    <p><a href="../Membership/membership.html">&laquo; Back </a> to Membership Page</p>
+</div>
+
+
+<!--Footer for Web Page-->
+<div class="footer-bottom">
+    <footer>
+        <div class="icon">
+            <a href="https://www.instagram.com"><img src="../ig-icon.png"></a>
+            <a href="https://www.facebook.com"><img src="../fb-icon.png"></a>
+            <a href="https://www.whatsapp.com"><img src="../wa-icon.png"></a>
+        </div>
+        <ul class="page-clicks">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../AboutUs.html">About Us</a></li>
+            <li><a href="../Product/AllProducts.html">Product</a></li>
+            <li><a href="../Membership/membership.html">Membership</a></li>
+            <li><a href="../Cart/cart.html">Cart</a></li>
+            <li><a href="../FAQ/faq.html">FAQ</a></li>
+            <li><a href="../Contact Us/ContactUS.html">Contact Us</a></li>
+
+        </ul>
+        <p>All Rights Reserved © 2022 Everything Grocery</p>
+    </footer>
+</div>
+
+</body>
+</html>

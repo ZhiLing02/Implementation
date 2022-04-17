@@ -1,0 +1,91 @@
+.accordion {
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+.accordion:after {
+    content:'\25be';
+    float: right;
+    transform: scale(1.5);
+}
+
+.active, .accordion:hover {
+    background-color:#ccc;
+    color:black;
+}
+
+.active::after {
+    content: '\25b4';
+}
+
+.accordion__content {
+    padding: 0 18px;
+    background-color: #eee;
+    display:none;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+}
+
+.accordion1 {
+    cursor: pointer;
+    padding: 0 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    font-size: 14.5px;
+}
+
+.accordion1:after {
+    content:'\002B';
+    float: right;
+    transform: scale(1.5);
+    margin-left: 5px;
+}
+
+.accordion1.active, .accordion1:hover {
+    background-color:#ccc;
+    color:black;
+}
+
+.accordion__content1 {
+    padding: 0 18px;
+    background-color: #DCDCDC;
+    display:none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion1.active::after {
+    content: '\2212';
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    text-align:left;
+    color: rgb(47, 79, 79);
+}
+
+
+
+
+

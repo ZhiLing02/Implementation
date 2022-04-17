@@ -1,0 +1,241 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+img[src="location-icon.png"] {
+  width:50px;
+  height:50px;
+  float:left;
+}
+
+h2{
+  font-size: 25px;
+  color:rgb(63, 62, 62);
+  text-align: left;
+}
+
+h3{
+  font-size:35px;
+  font-style:normal;
+  color:rgb(63, 62, 62);
+  text-align: center;
+}
+
+h5{
+  font-size:18px;
+  color:rgb(63, 62, 62);
+  font-style:normal;
+  text-align: left;
+}
+
+
+h6{
+  font-size:15px;
+  font-style:normal;
+  color:rgb(78, 77, 77);
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*Adjust button pattern (Contact us)*/
+  .button {
+    background-color: #df9b9b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+  }
+
+  /*Button hover pattern (Contact Us)*/
+  .button:hover {
+    background-color: #e76d6d;
+    color: white;
+  }
+
+  /*Button pattern for Feedback Form and Enquiry Form)*/
+  button {
+    background-color: #df9b9b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+  }
+
+  /*Button hover pattern for Feedback Form and Enquiry Form)*/
+    button:hover {
+      background-color: #e76d6d;
+      color: white;
+    }
+
+  /*Drop Button ( Contact Us.Enquiry)*/
+    .dropbtn {
+      background-color: #df9b9b;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: normal;
+      font-size: 20px;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #df9b9b;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color:white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown:hover .dropdown-content {display: block;}
+    
+  
+    /*Adjust the icon (Contact Us)*/
+  div.label {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin-left: 4%;
+    position: relative;
+    max-width: 1000px;
+
+  }
+  
+    /*Adjust the text*/
+    .caption {
+      display: block;
+      font-size: 20px;
+      font-style: normal;
+    }
+    
+  /*Text Box in Contact Us*/
+  div.boxes{
+    background-color: rgb(243, 239, 239);
+    width: 300px;
+    border: 2px solid #e76d6d;;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 50px;
+  }
+  
+  div.infoheader{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 425px;
+    margin-left: 15%;
+    position: relative;
+    max-width: 1000px;
+  }
+  
+  div.info{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    position: relative;
+    max-width: 1000px;
+  }
+
+/*Text Space*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*Setting Email field */
+input[type=email]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*Number input field*/
+input[type=number]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*Hide arrow in phone number input field*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*Adjust the form size*/
+  .container {
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+    color:rgb(63, 62, 62);
+  }
+
+  /*For the comment / message box*/
+  textarea{
+    height: 200px;
+  }
+
+  /*Ratio option*/
+  input[type=radio] {
+    border: 1px;
+    width: 1.3em;
+    height: 1.5em;
+  }
+
+  /*For the icon in fieldset*/
+  label {
+      display: inline-block;
+      width: 450px;
+    }
+
+  /*Fieldset*/
+  fieldset{
+      border-color: #e48787;
+      border-style: dotted;
+      color:rgb(83, 81, 81);
+      -webkit-flex: 1 1 300px;
+      flex: 1 1 300px; 
+  }
